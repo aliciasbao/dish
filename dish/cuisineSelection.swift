@@ -16,15 +16,15 @@ struct cuisineSelection: View {
                     .foregroundColor(Color(red: 0.2745, green: 0.4431, blue: 0.2667))
                 
                 NavigationStack {
-                    NavigationLink(destination: recipeView()){
+                    NavigationLink(destination: italianRecipeView()){
                         Text("Italian")
                     }
                     .padding(/*@START_MENU_TOKEN@*/.all, 5.0/*@END_MENU_TOKEN@*/)
-                    NavigationLink(destination: recipeView()){
+                    NavigationLink(destination: italianRecipeView()){ //change to other page later
                         Text("Chinese")
                     }
                     .padding(/*@START_MENU_TOKEN@*/.all, 5.0/*@END_MENU_TOKEN@*/)
-                    NavigationLink(destination: recipeView()){
+                    NavigationLink(destination: italianRecipeView()){ //change to new page later
                         Text("French")
                     }
                     .padding(/*@START_MENU_TOKEN@*/.all, 5.0/*@END_MENU_TOKEN@*/)
