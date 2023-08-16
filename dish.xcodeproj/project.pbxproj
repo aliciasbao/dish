@@ -16,7 +16,6 @@
 		C0451F8F2A8BE6C100B57656 /* cuisineSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0451F8E2A8BE6C100B57656 /* cuisineSelection.swift */; };
 		C0451F932A8BE75700B57656 /* ingredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0451F922A8BE75700B57656 /* ingredientsView.swift */; };
 		C0451F952A8BE76500B57656 /* singleIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0451F942A8BE76500B57656 /* singleIngredient.swift */; };
-		C0C5051A2A8C6AFD009903B4 /* singleRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C505192A8C6AFD009903B4 /* singleRecipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +29,6 @@
 		C0451F8E2A8BE6C100B57656 /* cuisineSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cuisineSelection.swift; sourceTree = "<group>"; };
 		C0451F922A8BE75700B57656 /* ingredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ingredientsView.swift; sourceTree = "<group>"; };
 		C0451F942A8BE76500B57656 /* singleIngredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleIngredient.swift; sourceTree = "<group>"; };
-		C0C505192A8C6AFD009903B4 /* singleRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleRecipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +66,6 @@
 				C0451F802A8BE49400B57656 /* ContentView.swift */,
 				C0451F8E2A8BE6C100B57656 /* cuisineSelection.swift */,
 				C039D8CB2A8BFE0F004C7E13 /* italianRecipeView.swift */,
-				C0C505192A8C6AFD009903B4 /* singleRecipe.swift */,
 				C0451F922A8BE75700B57656 /* ingredientsView.swift */,
 				C0451F942A8BE76500B57656 /* singleIngredient.swift */,
 				C0451F822A8BE49600B57656 /* Assets.xcassets */,
@@ -162,7 +159,6 @@
 				C0451F952A8BE76500B57656 /* singleIngredient.swift in Sources */,
 				C0451F7F2A8BE49400B57656 /* dishApp.swift in Sources */,
 				C0451F8F2A8BE6C100B57656 /* cuisineSelection.swift in Sources */,
-				C0C5051A2A8C6AFD009903B4 /* singleRecipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

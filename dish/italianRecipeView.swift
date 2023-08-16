@@ -17,7 +17,7 @@ struct italianRecipeView: View {
                     .fontWeight(.bold)
                 Grid{
                     GridRow{
-                        NavigationLink(destination: singleRecipe()) {
+                        NavigationLink(destination: ingredientsView()) {
                             VStack{
                                 Image("risotto")
                                     .resizable()
@@ -27,7 +27,7 @@ struct italianRecipeView: View {
                                 Text("Mushroom Risotto")
                             }
                         }
-                        NavigationLink(destination: singleRecipe()) {
+                        NavigationLink(destination: ingredientsView()) {
                             VStack{
                                 Image("pizza")
                                     .resizable()
@@ -39,7 +39,7 @@ struct italianRecipeView: View {
                         }
                     }
                     GridRow{
-                        NavigationLink(destination: singleRecipe()) {
+                        NavigationLink(destination: ingredientsView()) {
                             VStack{
                                 Image("carbonara")
                                     .resizable()
@@ -49,7 +49,7 @@ struct italianRecipeView: View {
                                 Text("Carbonara")
                             }
                         }
-                        NavigationLink(destination: singleRecipe()) {
+                        NavigationLink(destination: ingredientsView()) {
                             VStack{
                                 Image("gnocchi")
                                     .resizable()
