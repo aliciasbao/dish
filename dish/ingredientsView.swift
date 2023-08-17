@@ -37,12 +37,12 @@ struct ingredientsView: View {
                             .padding(.vertical, 5)
                         
                     }
-                    List{
-                        ForEach (text, id: \.text) {
-                            Text($0.name)
-                        }
-                        .listRowBackground(Color.red)
-                    }
+//                    List{
+//                        ForEach (text, id: \.text) {
+//                            Text($0.name)
+//                        }
+//                        .listRowBackground(Color.red)
+//                    }
                     
 //
 //                        List (text, children: \.text) {row in
