@@ -64,15 +64,15 @@ struct italianRecipeView: View {
                 Spacer()
                 Text("Special thanks to Lucas Lobak Neves, Saundarya Srinivasan, Rob Wicks, and Stefan Schauberger for the photography.")
                     .multilineTextAlignment(.center)
-                    .padding(/*@START_MENU_TOKEN@*/.all, 15.0/*@END_MENU_TOKEN@*/)
+                    .padding(.all, 15.0)
                     .background(Color(red: 0.2745, green: 0.4431, blue: 0.2667) /*green*/)
                     .foregroundColor(Color(red: 0.9569, green: 0.9451, blue: 0.8824) /*cream*/)
             }
             .background(Color(red: 0.9569, green: 0.9451, blue: 0.8824) /* cream */)
             .foregroundColor(Color(red: 0.2157, green: 0.2275, blue: 0.2314) /*grey*/)
             
-            .ignoresSafeArea()
         }
+        .ignoresSafeArea()
     }
 }
 

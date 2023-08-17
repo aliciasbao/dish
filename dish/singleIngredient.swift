@@ -9,7 +9,27 @@ import SwiftUI
 
 struct singleIngredient: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            VStack(alignment: .leading){
+                Image("pizza") //placeholder for ingredient image
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: UIScreen.main.bounds.width, height: 250)
+                    .clipped()
+                    .ignoresSafeArea()
+                VStack{
+                    Text("Ingredient")
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .padding(.bottom, 10)
+                        .padding(.top, -30)
+                    Text("Text blurb")
+                }
+                .padding(/*@START_MENU_TOKEN@*/.leading, 25.0/*@END_MENU_TOKEN@*/)
+                
+                Spacer()
+            }
+        }
     }
 }
 
