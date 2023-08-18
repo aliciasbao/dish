@@ -4,6 +4,7 @@
 //
 //  Created by Alicia Bao on 8/15/23.
 //
+//italian ingredients view!!
 
 import SwiftUI
 
@@ -35,30 +36,15 @@ struct ingredientsView: View {
                             .font(.largeTitle)
                             .fontWeight(.bold)
                             .padding(.vertical, 5)
-                        
+                            .padding(.leading, 15.0)
                     }
-//                    List{
-//                        ForEach (text, id: \.text) {
-//                            Text($0.name)
-//                        }
-//                        .listRowBackground(Color.red)
-//                    }
-                    
-//
-//                        List (text, children: \.text) {row in
-//                            ForEach(text){
-//                                Text($0.name)
-//                                    .listRowBackground(Color.red)
-//
-//                            }
-//                        }
-//                        .scrollContentBackground(.hidden)
-//                        .listStyle(.inset)
-                        //                        .padding(.leading, 25.0)
-                        .foregroundColor(Color(red: 0.2157, green: 0.2275, blue: 0.2314) /*grey*/
-                        )
-                        .padding(.leading, 25.0)
-                    .listRowBackground(Color.red)
+                    List (text, children: \.text) {row in
+                        Text(row.name)
+                    }
+                    .scrollContentBackground(.hidden)
+                    .listStyle(.inset)
+                    .foregroundColor(Color(red: 0.2157, green: 0.2275, blue: 0.2314) /*grey*/
+                    )
                 }
             }
             .ignoresSafeArea()

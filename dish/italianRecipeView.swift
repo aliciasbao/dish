@@ -7,12 +7,14 @@
 
 import SwiftUI
 
+//the italians! (their recipies)
+
 struct italianRecipeView: View {
     var body: some View {
         NavigationStack{
             VStack{
                 Spacer()
-                Text("Popular Recipes")
+                Text("Popular Italian Recipes")
                     .font(.title)
                     .fontWeight(.bold)
                 Grid{

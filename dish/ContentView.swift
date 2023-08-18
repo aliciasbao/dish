@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//landing or welcome page
 
 struct ContentView: View {
     //    @State private var name = ""
@@ -17,22 +18,18 @@ struct ContentView: View {
             ZStack{
                 Image("dish")
                     .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: 395.0, height: 895.0)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: UIScreen.main.bounds.width)
                 VStack {
-                    //                    NavigationLink(destination: enterName())
-                    //                    {
-                    //                        Text("hi")
-                    //                    }
                     NavigationLink(destination: enterName(), isActive: $show, label: {
                                     EmptyView()
+//                            .navigationBarBackButtonHidden(true) // not working for some reason LOL
                                 })
                     .onAppear {
                         DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
                             self.show.toggle()
                         }
                     }
-                    
                     // slogan under logo
                     //                        Text("crafting incredible meals for you")
                     //                            .font(.headline)
